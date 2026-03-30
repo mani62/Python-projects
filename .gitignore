@@ -1,0 +1,48 @@
+# Virtual environment
+venv/
+.env/
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# SQLite (if used)
+*.sqlite3
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.coverage
+htmlcov/
+
+# Pytest cache
+.pytest_cache/
+
+# Migrations cache (optional but safe)
+alembic/versions/*.pyc
+
+# Docker
+*.env.docker
+
+# MyPy / type check
+.mypy_cache/
+
+# Ruff / lint
+.ruff_cache/
