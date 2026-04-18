@@ -1,7 +1,10 @@
 from fastapi import APIRouter
+from app.services.task_service import TaskService
 
 router = APIRouter()
+service = TaskService()
 
-@router.get("/test")
-def test_tasks():
-    return {"message": "Tasks endpoint is working."}
+
+@router.get("/tasks")
+def get_tasks():
+    return service.get_tasks()
