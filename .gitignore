@@ -47,3 +47,5 @@ alembic/versions/*.pyc
 
 # Ruff / lint
 .ruff_cache/
+.env
+.env
