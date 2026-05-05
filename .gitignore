@@ -49,3 +49,4 @@ alembic/versions/*.pyc
 .ruff_cache/
 .env
 .env
+.env
